@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="task"
+		module="task_2.10"
+		revision="0.1-SNAPSHOT"
+		conf="runtime"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20150503085659"/>
+	<dependencies>
+		<module organisation="org.skinny-framework" name="skinny-task_2.10">
+			<revision name="1.3.17" status="release" pubdate="20150426084313" resolver="public" artresolver="public" homepage="http://skinny-framework.org/" downloaded="true" searched="true" default="false" conf="default(compile), default, compile, runtime, master" position="0">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="successful" details="" size="4701" time="444" location="/home/lou/.ivy2/cache/org.skinny-framework/skinny-task_2.10/ivy-1.3.17.xml" searched="true" original-local-location="/home/lou/.ivy2/cache/org.skinny-framework/skinny-task_2.10/ivy-1.3.17.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/skinny-framework/skinny-task_2.10/1.3.17/skinny-task_2.10-1.3.17.pom"/>
+				<caller organisation="task" name="task_2.10" conf="compile, runtime" rev="1.3.+" rev-constraint-default="1.3.+" rev-constraint-dynamic="1.3.+" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="skinny-task_2.10" type="jar" ext="jar" status="successful" details="" size="330890" time="1138" location="/home/lou/.ivy2/cache/org.skinny-framework/skinny-task_2.10/jars/skinny-task_2.10-1.3.17.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/skinny-framework/skinny-task_2.10/1.3.17/skinny-task_2.10-1.3.17.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-io" name="commons-io">
+			<revision name="2.4" status="release" pubdate="20120612182206" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/io/" downloaded="false" searched="false" default="false" conf="compile, runtime, compile(*), runtime(*), master(compile), master" position="7">
+				<metadata-artifact status="no" details="" size="8457" time="0" location="/home/lou/.ivy2/cache/commons-io/commons-io/ivy-2.4.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4.pom"/>
+				<caller organisation="org.skinny-framework" name="skinny-task_2.10" conf="default, compile, runtime, master" rev="2.4" rev-constraint-default="2.4" rev-constraint-dynamic="2.4" callerrev="1.3.17"/>
+				<artifacts>
+					<artifact name="commons-io" type="jar" ext="jar" status="no" details="" size="185140" time="0" location="/home/lou/.ivy2/cache/commons-io/commons-io/jars/commons-io-2.4.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.skinny-framework" name="skinny-orm_2.10">
+			<revision name="1.3.17" status="release" pubdate="20150426084144" resolver="public" artresolver="public" homepage="http://skinny-framework.org/" downloaded="true" searched="true" default="false" conf="default(compile), default, compile, runtime, master" position="8">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="successful" details="" size="7309" time="418" location="/home/lou/.ivy2/cache/org.skinny-framework/skinny-orm_2.10/ivy-1.3.17.xml" searched="true" original-local-location="/home/lou/.ivy2/cache/org.skinny-framework/skinny-orm_2.10/ivy-1.3.17.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/skinny-framework/skinny-orm_2.10/1.3.17/skinny-orm_2.10-1.3.17.pom"/>
+				<caller organisation="task" name="task_2.10" conf="compile, runtime" rev="1.3.+" rev-constraint-default="1.3.+" rev-constraint-dynamic="1.3.+" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="skinny-orm_2.10" type="jar" ext="jar" status="successful" details="" size="692181" time="993" location="/home/lou/.ivy2/cache/org.skinny-framework/skinny-orm_2.10/jars/skinny-orm_2.10-1.3.17.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/skinny-framework/skinny-orm_2.10/1.3.17/skinny-orm_2.10-1.3.17.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.flywaydb" name="flyway-core">
+			<revision name="3.2.1" status="release" pubdate="20150320105350" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime, compile(*), runtime(*), master(compile), master" position="19">
+				<license name="Apache License, Version 2.0" url="https://github.com/flyway/flyway/blob/master/LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="16393" time="0" location="/home/lou/.ivy2/cache/org.flywaydb/flyway-core/ivy-3.2.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/flywaydb/flyway-core/3.2.1/flyway-core-3.2.1.pom"/>
+				<caller organisation="org.skinny-framework" name="skinny-orm_2.10" conf="default, compile, runtime, master" rev="3.2.1" rev-constraint-default="3.2.1" rev-constraint-dynamic="3.2.1" callerrev="1.3.17"/>
+				<artifacts>
+					<artifact name="flyway-core" type="jar" ext="jar" status="no" details="" size="292011" time="0" location="/home/lou/.ivy2/cache/org.flywaydb/flyway-core/jars/flyway-core-3.2.1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/flywaydb/flyway-core/3.2.1/flyway-core-3.2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalikejdbc" name="scalikejdbc-config_2.10">
+			<revision name="2.2.6" status="release" pubdate="20150423003528" resolver="public" artresolver="public" homepage="http://scalikejdbc.org/" downloaded="true" searched="true" default="false" conf="compile, runtime, compile(*), runtime(*), master(compile), master" position="18">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="successful" details="" size="4433" time="444" location="/home/lou/.ivy2/cache/org.scalikejdbc/scalikejdbc-config_2.10/ivy-2.2.6.xml" searched="true" original-local-location="/home/lou/.ivy2/cache/org.scalikejdbc/scalikejdbc-config_2.10/ivy-2.2.6.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc-config_2.10/2.2.6/scalikejdbc-config_2.10-2.2.6.pom"/>
+				<caller organisation="org.skinny-framework" name="skinny-orm_2.10" conf="default, compile, runtime, master" rev="2.2.6" rev-constraint-default="2.2.6" rev-constraint-dynamic="2.2.6" callerrev="1.3.17"/>
+				<artifacts>
+					<artifact name="scalikejdbc-config_2.10" type="jar" ext="jar" status="successful" details="" size="55923" time="517" location="/home/lou/.ivy2/cache/org.scalikejdbc/scalikejdbc-config_2.10/jars/scalikejdbc-config_2.10-2.2.6.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc-config_2.10/2.2.6/scalikejdbc-config_2.10-2.2.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalikejdbc" name="scalikejdbc-syntax-support-macro_2.10">
+			<revision name="2.2.6" status="release" pubdate="20150423003625" resolver="public" artresolver="public" homepage="http://scalikejdbc.org/" downloaded="true" searched="true" default="false" conf="compile, runtime, compile(*), runtime(*), master(compile), master" position="16">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="successful" details="" size="4529" time="478" location="/home/lou/.ivy2/cache/org.scalikejdbc/scalikejdbc-syntax-support-macro_2.10/ivy-2.2.6.xml" searched="true" original-local-location="/home/lou/.ivy2/cache/org.scalikejdbc/scalikejdbc-syntax-support-macro_2.10/ivy-2.2.6.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc-syntax-support-macro_2.10/2.2.6/scalikejdbc-syntax-support-macro_2.10-2.2.6.pom"/>
+				<caller organisation="org.skinny-framework" name="skinny-orm_2.10" conf="default, compile, runtime, master" rev="2.2.6" rev-constraint-default="2.2.6" rev-constraint-dynamic="2.2.6" callerrev="1.3.17"/>
+				<artifacts>
+					<artifact name="scalikejdbc-syntax-support-macro_2.10" type="jar" ext="jar" status="successful" details="" size="35138" time="424" location="/home/lou/.ivy2/cache/org.scalikejdbc/scalikejdbc-syntax-support-macro_2.10/jars/scalikejdbc-syntax-support-macro_2.10-2.2.6.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc-syntax-support-macro_2.10/2.2.6/scalikejdbc-syntax-support-macro_2.10-2.2.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalamacros" name="quasiquotes_2.10">
+			<revision name="2.0.1" status="release" pubdate="20150303055226" resolver="public" artresolver="public" homepage="https://github.com/scalamacros/paradise" downloaded="true" searched="true" default="false" conf="compile, runtime, compile(*), runtime(*), master(compile), master" position="17">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html"/>
+				<metadata-artifact status="successful" details="" size="1841" time="362" location="/home/lou/.ivy2/cache/org.scalamacros/quasiquotes_2.10/ivy-2.0.1.xml" searched="true" original-local-location="/home/lou/.ivy2/cache/org.scalamacros/quasiquotes_2.10/ivy-2.0.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalamacros/quasiquotes_2.10/2.0.1/quasiquotes_2.10-2.0.1.pom"/>
+				<caller organisation="org.scalikejdbc" name="scalikejdbc-syntax-support-macro_2.10" conf="compile, runtime" rev="2.0.1" rev-constraint-default="2.0.1" rev-constraint-dynamic="2.0.1" callerrev="2.2.6"/>
+				<artifacts>
+					<artifact name="quasiquotes_2.10" type="jar" ext="jar" status="successful" details="" size="720704" time="711" location="/home/lou/.ivy2/cache/org.scalamacros/quasiquotes_2.10/jars/quasiquotes_2.10-2.0.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalamacros/quasiquotes_2.10/2.0.1/quasiquotes_2.10-2.0.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-reflect">
+			<revision name="2.10.4" status="release" pubdate="20140318174707" resolver="sbt-chain" artresolver="sbt-chain" evicted="latest-revision" evicted-reason="" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.10.4/" downloaded="false" searched="false" default="false" conf="compile, runtime, compile(*), runtime(*), master(compile), master" position="-1">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html    "/>
+				<metadata-artifact status="no" details="" size="2647" time="0" location="/home/lou/.ivy2/cache/org.scala-lang/scala-reflect/ivy-2.10.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.4/scala-reflect-2.10.4.pom"/>
+				<evicted-by rev="2.10.5"/>
+				<caller organisation="org.scalamacros" name="quasiquotes_2.10" conf="compile, runtime" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.4" callerrev="2.0.1"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+			<revision name="2.10.5" status="release" pubdate="20150226205445" resolver="public" artresolver="public" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.10.5/" downloaded="true" searched="true" default="false" conf="compile, runtime, compile(*), runtime(*), master(compile), master" position="15">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html
+			"/>
+				<metadata-artifact status="successful" details="" size="1941" time="390" location="/home/lou/.ivy2/cache/org.scala-lang/scala-reflect/ivy-2.10.5.xml" searched="true" original-local-location="/home/lou/.ivy2/cache/org.scala-lang/scala-reflect/ivy-2.10.5.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.5/scala-reflect-2.10.5.pom"/>
+				<caller organisation="org.scalamacros" name="quasiquotes_2.10" conf="compile, runtime" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.4" callerrev="2.0.1"/>
+				<caller organisation="org.scalikejdbc" name="scalikejdbc-interpolation-macro_2.10" conf="compile, runtime" rev="2.10.5" rev-constraint-default="2.10.5" rev-constraint-dynamic="2.10.5" callerrev="2.2.6"/>
+				<artifacts>
+					<artifact name="scala-reflect" type="jar" ext="jar" status="successful" details="" size="3206179" time="1948" location="/home/lou/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.10.5.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.5/scala-reflect-2.10.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalikejdbc" name="scalikejdbc_2.10">
+			<revision name="2.2.6" status="release" pubdate="20150423003605" resolver="public" artresolver="public" homepage="http://scalikejdbc.org/" downloaded="true" searched="true" default="false" conf="compile, runtime, compile(*), runtime(*), master(compile), master" position="9">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="successful" details="" size="3027" time="460" location="/home/lou/.ivy2/cache/org.scalikejdbc/scalikejdbc_2.10/ivy-2.2.6.xml" searched="true" original-local-location="/home/lou/.ivy2/cache/org.scalikejdbc/scalikejdbc_2.10/ivy-2.2.6.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc_2.10/2.2.6/scalikejdbc_2.10-2.2.6.pom"/>
+				<caller organisation="org.scalikejdbc" name="scalikejdbc-syntax-support-macro_2.10" conf="compile, runtime" rev="2.2.6" rev-constraint-default="2.2.6" rev-constraint-dynamic="2.2.6" callerrev="2.2.6"/>
+				<caller organisation="org.skinny-framework" name="skinny-orm_2.10" conf="default, compile, runtime, master" rev="2.2.6" rev-constraint-default="2.2.6" rev-constraint-dynamic="2.2.6" callerrev="1.3.17"/>
+				<artifacts>
+					<artifact name="scalikejdbc_2.10" type="jar" ext="jar" status="successful" details="" size="8906" time="388" location="/home/lou/.ivy2/cache/org.scalikejdbc/scalikejdbc_2.10/jars/scalikejdbc_2.10-2.2.6.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc_2.10/2.2.6/scalikejdbc_2.10-2.2.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalikejdbc" name="scalikejdbc-interpolation_2.10">
+			<revision name="2.2.6" status="release" pubdate="20150423003553" resolver="public" artresolver="public" homepage="http://scalikejdbc.org/" downloaded="true" searched="true" default="false" conf="compile, runtime, compile(*), runtime(*), master(compile), master" position="13">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="successful" details="" size="4702" time="461" location="/home/lou/.ivy2/cache/org.scalikejdbc/scalikejdbc-interpolation_2.10/ivy-2.2.6.xml" searched="true" original-local-location="/home/lou/.ivy2/cache/org.scalikejdbc/scalikejdbc-interpolation_2.10/ivy-2.2.6.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc-interpolation_2.10/2.2.6/scalikejdbc-interpolation_2.10-2.2.6.pom"/>
+				<caller organisation="org.scalikejdbc" name="scalikejdbc_2.10" conf="compile, runtime" rev="2.2.6" rev-constraint-default="2.2.6" rev-constraint-dynamic="2.2.6" callerrev="2.2.6"/>
+				<artifacts>
+					<artifact name="scalikejdbc-interpolation_2.10" type="jar" ext="jar" status="successful" details="" size="313701" time="561" location="/home/lou/.ivy2/cache/org.scalikejdbc/scalikejdbc-interpolation_2.10/jars/scalikejdbc-interpolation_2.10-2.2.6.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc-interpolation_2.10/2.2.6/scalikejdbc-interpolation_2.10-2.2.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalikejdbc" name="scalikejdbc-interpolation-macro_2.10">
+			<revision name="2.2.6" status="release" pubdate="20150423003541" resolver="public" artresolver="public" homepage="http://scalikejdbc.org/" downloaded="true" searched="true" default="false" conf="compile, runtime, compile(*), runtime(*), master(compile), master" position="14">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="successful" details="" size="3087" time="392" location="/home/lou/.ivy2/cache/org.scalikejdbc/scalikejdbc-interpolation-macro_2.10/ivy-2.2.6.xml" searched="true" original-local-location="/home/lou/.ivy2/cache/org.scalikejdbc/scalikejdbc-interpolation-macro_2.10/ivy-2.2.6.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc-interpolation-macro_2.10/2.2.6/scalikejdbc-interpolation-macro_2.10-2.2.6.pom"/>
+				<caller organisation="org.scalikejdbc" name="scalikejdbc-interpolation_2.10" conf="compile, runtime" rev="2.2.6" rev-constraint-default="2.2.6" rev-constraint-dynamic="2.2.6" callerrev="2.2.6"/>
+				<artifacts>
+					<artifact name="scalikejdbc-interpolation-macro_2.10" type="jar" ext="jar" status="successful" details="" size="11901" time="402" location="/home/lou/.ivy2/cache/org.scalikejdbc/scalikejdbc-interpolation-macro_2.10/jars/scalikejdbc-interpolation-macro_2.10-2.2.6.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc-interpolation-macro_2.10/2.2.6/scalikejdbc-interpolation-macro_2.10-2.2.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalikejdbc" name="scalikejdbc-core_2.10">
+			<revision name="2.2.6" status="release" pubdate="20150423003510" resolver="public" artresolver="public" homepage="http://scalikejdbc.org/" downloaded="true" searched="true" default="false" conf="compile, runtime, compile(*), runtime(*), master(compile), master" position="10">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="successful" details="" size="5639" time="453" location="/home/lou/.ivy2/cache/org.scalikejdbc/scalikejdbc-core_2.10/ivy-2.2.6.xml" searched="true" original-local-location="/home/lou/.ivy2/cache/org.scalikejdbc/scalikejdbc-core_2.10/ivy-2.2.6.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc-core_2.10/2.2.6/scalikejdbc-core_2.10-2.2.6.pom"/>
+				<caller organisation="org.scalikejdbc" name="scalikejdbc-config_2.10" conf="compile, runtime" rev="2.2.6" rev-constraint-default="2.2.6" rev-constraint-dynamic="2.2.6" callerrev="2.2.6"/>
+				<caller organisation="org.scalikejdbc" name="scalikejdbc-interpolation_2.10" conf="compile, runtime" rev="2.2.6" rev-constraint-default="2.2.6" rev-constraint-dynamic="2.2.6" callerrev="2.2.6"/>
+				<caller organisation="org.scalikejdbc" name="scalikejdbc_2.10" conf="compile, runtime" rev="2.2.6" rev-constraint-default="2.2.6" rev-constraint-dynamic="2.2.6" callerrev="2.2.6"/>
+				<caller organisation="org.scalikejdbc" name="scalikejdbc-interpolation-macro_2.10" conf="compile, runtime" rev="2.2.6" rev-constraint-default="2.2.6" rev-constraint-dynamic="2.2.6" callerrev="2.2.6"/>
+				<artifacts>
+					<artifact name="scalikejdbc-core_2.10" type="jar" ext="jar" status="successful" details="" size="2945858" time="1872" location="/home/lou/.ivy2/cache/org.scalikejdbc/scalikejdbc-core_2.10/jars/scalikejdbc-core_2.10-2.2.6.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc-core_2.10/2.2.6/scalikejdbc-core_2.10-2.2.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-dbcp" name="commons-dbcp">
+			<revision name="1.4" status="release" pubdate="20100207125626" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/dbcp/" downloaded="false" searched="false" default="false" conf="compile, runtime, compile(*), runtime(*), master(compile), master" position="11">
+				<metadata-artifact status="no" details="" size="5587" time="0" location="/home/lou/.ivy2/cache/commons-dbcp/commons-dbcp/ivy-1.4.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/commons-dbcp/commons-dbcp/1.4/commons-dbcp-1.4.pom"/>
+				<caller organisation="org.scalikejdbc" name="scalikejdbc-core_2.10" conf="compile, runtime" rev="1.4" rev-constraint-default="1.4" rev-constraint-dynamic="1.4" callerrev="2.2.6"/>
+				<artifacts>
+					<artifact name="commons-dbcp" type="jar" ext="jar" status="no" details="" size="160519" time="0" location="/home/lou/.ivy2/cache/commons-dbcp/commons-dbcp/jars/commons-dbcp-1.4.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/commons-dbcp/commons-dbcp/1.4/commons-dbcp-1.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-pool" name="commons-pool">
+			<revision name="1.5.4" status="release" pubdate="20091112204653" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/pool/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="12">
+				<metadata-artifact status="no" details="" size="4808" time="0" location="/home/lou/.ivy2/cache/commons-pool/commons-pool/ivy-1.5.4.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/commons-pool/commons-pool/1.5.4/commons-pool-1.5.4.pom"/>
+				<caller organisation="commons-dbcp" name="commons-dbcp" conf="compile, runtime" rev="1.5.4" rev-constraint-default="1.5.4" rev-constraint-dynamic="1.5.4" callerrev="1.4"/>
+				<artifacts>
+					<artifact name="commons-pool" type="jar" ext="jar" status="no" details="" size="96221" time="0" location="/home/lou/.ivy2/cache/commons-pool/commons-pool/jars/commons-pool-1.5.4.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/commons-pool/commons-pool/1.5.4/commons-pool-1.5.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.skinny-framework" name="skinny-common_2.10">
+			<revision name="1.3.17" status="release" pubdate="20150426083855" resolver="public" artresolver="public" homepage="http://skinny-framework.org/" downloaded="true" searched="true" default="false" conf="compile, runtime, compile(*), runtime(*), master(compile), master" position="2">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="successful" details="" size="5467" time="430" location="/home/lou/.ivy2/cache/org.skinny-framework/skinny-common_2.10/ivy-1.3.17.xml" searched="true" original-local-location="/home/lou/.ivy2/cache/org.skinny-framework/skinny-common_2.10/ivy-1.3.17.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/skinny-framework/skinny-common_2.10/1.3.17/skinny-common_2.10-1.3.17.pom"/>
+				<caller organisation="org.skinny-framework" name="skinny-orm_2.10" conf="default, compile, runtime, master" rev="1.3.17" rev-constraint-default="1.3.17" rev-constraint-dynamic="1.3.17" callerrev="1.3.17"/>
+				<caller organisation="org.skinny-framework" name="skinny-task_2.10" conf="default, compile, runtime, master" rev="1.3.17" rev-constraint-default="1.3.17" rev-constraint-dynamic="1.3.17" callerrev="1.3.17"/>
+				<artifacts>
+					<artifact name="skinny-common_2.10" type="jar" ext="jar" status="successful" details="" size="450655" time="784" location="/home/lou/.ivy2/cache/org.skinny-framework/skinny-common_2.10/jars/skinny-common_2.10-1.3.17.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/skinny-framework/skinny-common_2.10/1.3.17/skinny-common_2.10-1.3.17.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.h2database" name="h2">
+			<revision name="1.4.187" status="release" pubdate="20150410123333" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="true" default="false" conf="default(compile), default, compile, runtime, master" position="20">
+				<metadata-artifact status="no" details="" size="2181" time="0" location="/home/lou/.ivy2/cache/com.h2database/h2/ivy-1.4.187.xml" searched="true" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/h2database/h2/1.4.187/h2-1.4.187.pom"/>
+				<caller organisation="task" name="task_2.10" conf="compile, runtime" rev="1.4.+" rev-constraint-default="1.4.+" rev-constraint-dynamic="1.4.+" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="h2" type="jar" ext="jar" status="no" details="" size="1695977" time="0" location="/home/lou/.ivy2/cache/com.h2database/h2/jars/h2-1.4.187.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/h2database/h2/1.4.187/h2-1.4.187.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-api">
+			<revision name="1.7.12" status="release" pubdate="20150326165005" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, runtime, compile(*), runtime(*), master(compile), master" position="6">
+				<metadata-artifact status="no" details="" size="4826" time="0" location="/home/lou/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.7.12.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12.pom"/>
+				<caller organisation="org.skinny-framework" name="skinny-common_2.10" conf="compile, runtime" rev="1.7.12" rev-constraint-default="1.7.12" rev-constraint-dynamic="1.7.12" callerrev="1.3.17"/>
+				<artifacts>
+					<artifact name="slf4j-api" type="jar" ext="jar" status="no" details="" size="32127" time="0" location="/home/lou/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.12.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.joda" name="joda-convert">
+			<revision name="1.7" status="release" pubdate="20140804103718" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.joda.org/joda-convert/" downloaded="false" searched="false" default="false" conf="compile, runtime, compile(*), runtime(*), master(compile), master" position="5">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="6120" time="0" location="/home/lou/.ivy2/cache/org.joda/joda-convert/ivy-1.7.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/joda/joda-convert/1.7/joda-convert-1.7.pom"/>
+				<caller organisation="org.skinny-framework" name="skinny-common_2.10" conf="compile, runtime" rev="1.7" rev-constraint-default="1.7" rev-constraint-dynamic="1.7" callerrev="1.3.17"/>
+				<artifacts>
+					<artifact name="joda-convert" type="jar" ext="jar" status="no" details="" size="102981" time="0" location="/home/lou/.ivy2/cache/org.joda/joda-convert/jars/joda-convert-1.7.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/joda/joda-convert/1.7/joda-convert-1.7.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="joda-time" name="joda-time">
+			<revision name="2.7" status="release" pubdate="20150111195125" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.joda.org/joda-time/" downloaded="false" searched="false" default="false" conf="compile, runtime, compile(*), runtime(*), master(compile), master" position="4">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="6448" time="0" location="/home/lou/.ivy2/cache/joda-time/joda-time/ivy-2.7.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/joda-time/joda-time/2.7/joda-time-2.7.pom"/>
+				<caller organisation="org.skinny-framework" name="skinny-common_2.10" conf="compile, runtime" rev="2.7" rev-constraint-default="2.7" rev-constraint-dynamic="2.7" callerrev="1.3.17"/>
+				<artifacts>
+					<artifact name="joda-time" type="jar" ext="jar" status="no" details="" size="589289" time="0" location="/home/lou/.ivy2/cache/joda-time/joda-time/jars/joda-time-2.7.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/joda-time/joda-time/2.7/joda-time-2.7.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe" name="config">
+			<revision name="1.2.1" status="release" pubdate="20140502105416" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typesafehub/config" downloaded="false" searched="false" default="false" conf="compile, runtime, compile(*), runtime(*), master(compile), master" position="3">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2734" time="0" location="/home/lou/.ivy2/cache/com.typesafe/config/ivy-1.2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/config/1.2.1/config-1.2.1.pom"/>
+				<caller organisation="org.scalikejdbc" name="scalikejdbc-config_2.10" conf="compile, runtime" rev="1.2.1" rev-constraint-default="1.2.1" rev-constraint-dynamic="1.2.1" callerrev="2.2.6"/>
+				<caller organisation="org.skinny-framework" name="skinny-common_2.10" conf="compile, runtime" rev="1.2.1" rev-constraint-default="1.2.1" rev-constraint-dynamic="1.2.1" callerrev="1.3.17"/>
+				<artifacts>
+					<artifact name="config" type="bundle" ext="jar" status="no" details="" size="219554" time="0" location="/home/lou/.ivy2/cache/com.typesafe/config/bundles/config-1.2.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/config/1.2.1/config-1.2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.10.5" status="release" pubdate="20150226205430" resolver="public" artresolver="public" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.10.5/" downloaded="true" searched="true" default="false" conf="compile, runtime, compile(*), runtime(*), master(compile), master, default(compile), default" position="1">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html
+         "/>
+				<metadata-artifact status="successful" details="" size="2044" time="360" location="/home/lou/.ivy2/cache/org.scala-lang/scala-library/ivy-2.10.5.xml" searched="true" original-local-location="/home/lou/.ivy2/cache/org.scala-lang/scala-library/ivy-2.10.5.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.pom"/>
+				<caller organisation="org.scalikejdbc" name="scalikejdbc-syntax-support-macro_2.10" conf="compile, runtime" rev="2.10.5" rev-constraint-default="2.10.5" rev-constraint-dynamic="2.10.5" callerrev="2.2.6"/>
+				<caller organisation="org.scalikejdbc" name="scalikejdbc-config_2.10" conf="compile, runtime" rev="2.10.5" rev-constraint-default="2.10.5" rev-constraint-dynamic="2.10.5" callerrev="2.2.6"/>
+				<caller organisation="org.skinny-framework" name="skinny-orm_2.10" conf="default, compile, runtime, master" rev="2.10.5" rev-constraint-default="2.10.5" rev-constraint-dynamic="2.10.5" callerrev="1.3.17"/>
+				<caller organisation="org.scalamacros" name="quasiquotes_2.10" conf="compile, runtime" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.4" callerrev="2.0.1"/>
+				<caller organisation="org.scalikejdbc" name="scalikejdbc-interpolation_2.10" conf="compile, runtime" rev="2.10.5" rev-constraint-default="2.10.5" rev-constraint-dynamic="2.10.5" callerrev="2.2.6"/>
+				<caller organisation="org.scalikejdbc" name="scalikejdbc_2.10" conf="compile, runtime" rev="2.10.5" rev-constraint-default="2.10.5" rev-constraint-dynamic="2.10.5" callerrev="2.2.6"/>
+				<caller organisation="org.scalikejdbc" name="scalikejdbc-interpolation-macro_2.10" conf="compile, runtime" rev="2.10.5" rev-constraint-default="2.10.5" rev-constraint-dynamic="2.10.5" callerrev="2.2.6"/>
+				<caller organisation="org.skinny-framework" name="skinny-common_2.10" conf="compile, runtime" rev="2.10.5" rev-constraint-default="2.10.5" rev-constraint-dynamic="2.10.5" callerrev="1.3.17"/>
+				<caller organisation="org.scala-lang" name="scala-reflect" conf="compile, runtime" rev="2.10.5" rev-constraint-default="2.10.5" rev-constraint-dynamic="2.10.5" callerrev="2.10.5"/>
+				<caller organisation="org.scalikejdbc" name="scalikejdbc-core_2.10" conf="compile, runtime" rev="2.10.5" rev-constraint-default="2.10.5" rev-constraint-dynamic="2.10.5" callerrev="2.2.6"/>
+				<caller organisation="task" name="task_2.10" conf="compile, runtime" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.4" callerrev="0.1-SNAPSHOT"/>
+				<caller organisation="org.skinny-framework" name="skinny-task_2.10" conf="default, compile, runtime, master" rev="2.10.5" rev-constraint-default="2.10.5" rev-constraint-dynamic="2.10.5" callerrev="1.3.17"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="successful" details="" size="7130772" time="3949" location="/home/lou/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.5.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="2.10.4" status="release" pubdate="20140318174629" resolver="sbt-chain" artresolver="sbt-chain" evicted="latest-revision" evicted-reason="" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.10.4/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, compile(*), runtime, runtime(*), master(compile), master" position="-1">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html          "/>
+				<metadata-artifact status="no" details="" size="2487" time="0" location="/home/lou/.ivy2/cache/org.scala-lang/scala-library/ivy-2.10.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.4/scala-library-2.10.4.pom"/>
+				<evicted-by rev="2.10.5"/>
+				<caller organisation="org.scalamacros" name="quasiquotes_2.10" conf="compile, runtime" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.4" callerrev="2.0.1"/>
+				<caller organisation="task" name="task_2.10" conf="compile, runtime" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.4" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

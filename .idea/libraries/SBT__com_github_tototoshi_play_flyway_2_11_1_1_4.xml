@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="SBT: com.github.tototoshi:play-flyway_2.11:1.1.4">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/com.github.tototoshi/play-flyway_2.11/jars/play-flyway_2.11-1.1.4.jar!/"/>
+    </CLASSES>
+    <JAVADOC> </JAVADOC>
+    <SOURCES> </SOURCES>
+  </library>
+</component>

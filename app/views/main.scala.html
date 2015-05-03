@@ -1,0 +1,13 @@
+@(title: String)(content: Html)
+<!DOCTYPE html>
+<html>
+<head>
+<title>@title</title>
+<link href="@routes.Assets.at("stylesheets/assets.css")" rel="stylesheet">
+<script src="@routes.Assets.at("javascripts/assets.js")"></script>
+</head>
+<body>
+@content
+<script src="@routes.Assets.at("javascripts/app.js")"></script>
+</body>
+</html>

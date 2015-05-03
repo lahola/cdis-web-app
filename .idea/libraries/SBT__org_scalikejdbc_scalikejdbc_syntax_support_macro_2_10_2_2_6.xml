@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="SBT: org.scalikejdbc:scalikejdbc-syntax-support-macro_2.10:2.2.6">
+    <CLASSES>
+      <root 
+      url="jar://$USER_HOME$/.ivy2/cache/org.scalikejdbc/scalikejdbc-syntax-support-macro_2.10/jars/scalikejdbc-syntax-support-macro_2.10-2.2.6.jar!/">
+</root>
+    </CLASSES>
+    <JAVADOC> </JAVADOC>
+    <SOURCES> </SOURCES>
+  </library>
+</component>

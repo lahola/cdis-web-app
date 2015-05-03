@@ -1,0 +1,73 @@
+@(report: StockReport)
+
+@dashboard("Stock Info - " + report.symbol) {
+
+<div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+    <h1 class="page-header">@report.name (@report.symbol)</h1>
+    <div class="table-responsive">
+        <table class="table table-striped">
+            <tbody>
+            <tr>
+                <td>Name:</td>
+                <td>@report.name</td>
+            </tr>
+            <tr>
+                <td>Symbol:</td>
+                <td>@report.symbol</td>
+            </tr>
+            <tr>
+                <td>Stock Exchange:</td>
+                <td>@report.stockExchange</td>
+            </tr>
+            <tr>
+                <td>Date of report:</td>
+                <td>@report.date</td>
+            </tr>
+            <tr>
+                <td>Current stock price:</td>
+                <td>@report.current</td>
+            </tr>
+            <tr>
+                <td>Last month stock price:</td>
+                <td>@report.previousMonth</td>
+            </tr>
+            <tr>
+                <td>52wk high:</td>
+                <td>@report.yearHigh</td>
+            </tr>
+            <tr>
+                <td>52 wk low:</td>
+                <td>@report.yearLow</td>
+            </tr>
+            <tr>
+                <td>PEG ratio:</td>
+                <td>@report.pegRatio</td>
+            </tr>
+            <tr>
+                <td>P/E ttm:</td>
+                <td>@report.peTtm</td>
+            </tr>
+            <tr>
+                <td>Beta:</td>
+                <td>@report.beta</td>
+            </tr>
+            <tr>
+                <td>Yield:</td>
+                <td>@report.yearlyYield (@report.yearlyYieldPercent%)</td>
+            </tr>
+            <tr>
+                <td>EPS:</td>
+                <td>@report.eps</td>
+            </tr>
+            <tr>
+                <td>Debt/Equity ratio:</td>
+                <td>@report.debtEquityRatio</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+</div>
+</div>
+
+}
